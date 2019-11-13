@@ -4,7 +4,7 @@ function Jumbotron() {
     return(
         <div className="jumbotron jumbotron-fluid bg-dark text-light">
             <div className="container">
-                <h1 className="display-4">Clicky Caricature</h1>
+                <h1 className="title">Clicky Caricature</h1>
                 <p className="lead">Celebrity Edition</p>
             </div>
         </div>
