@@ -9,7 +9,7 @@
     "id": 2,
     "name": "Elton John",
     "image": "./images/eltonjohn.jpg",
-    "clicked": false 
+    "clicked": false
     },
     {
     "id": 3,
