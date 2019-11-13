@@ -5,6 +5,7 @@ function GameCard(props){
 
         <div className="card col-md-3 text-dark p-0" id={props.id}>
             <img src={props.image} className="img-fluid rounded" alt={props.name} />
+            <p>Clicked = {props.clicked}</p>
         </div>      
     );
 };

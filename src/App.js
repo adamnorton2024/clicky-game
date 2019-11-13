@@ -7,7 +7,6 @@ import GameCard from './components/GameCard';
 import images from './images.json';
 
 
-
 function App() {
   return (
     <div>
@@ -19,7 +18,9 @@ function App() {
         <GameCard 
           image={character.image} 
           name={character.name}
-          id={character.id} />
+          id={character.id}
+          clicked={character.clicked}
+           />
       )}
       </Container>
     </div>
