@@ -1,17 +1,23 @@
 import React from 'react';
 import './App.css';
-import Jumbotron from './components/Jumbotron.js';
+import Container from './components/Container';
+import Jumbotron from './components/Jumbotron';
 import GameCard from './components/GameCard';
 import images from './images.json';
+
 
 
 function App() {
   return (
     <div>
       <Jumbotron />
+      <Container>
       {images.map(character =>
-        <GameCard image={character.image} />
+        <GameCard 
+          image={character.image} 
+          name={character.name} />
       )}
+      </Container>
     </div>
   );
   
