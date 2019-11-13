@@ -1,0 +1,62 @@
+[
+    {
+    "id": 1,
+    "name": "Bill Murray",
+    "image": "./images/billmurray.jpg"
+    },
+    {
+    "id": 2,
+    "name": "Elton John",
+    "image": ".images/eltonjohn.jpg" 
+    },
+    {
+    "id": 3,
+    "name": "John C Reilly",
+    "image": "./images/johncreilly"
+    },
+    {
+    "id": 4,
+    "name": "johnny",
+    "image": "./images/johnny"
+    },
+    {
+    "id": 5,
+    "name": "Leslie Neilson",
+    "image": "./images/leslieneilson.jpg"
+    },
+    {
+    "id": 6,
+    "name": "Machete",
+    "image": "./images/machete.jpg"
+    },
+    {
+    "id": 7,
+    "name": "Mel Gibson",
+    "image": "./images/melgibson.jpg"
+    },
+    {
+    "id": 8,
+    "name": "Robert De Niro",
+    "image": "./robertdeniro.jpg"
+    },
+    {
+    "id": 9,
+    "name": "Sly Stalone",
+    "image": "./images/slystallone.jpg"
+    },
+    {
+    "id": 10,
+    "name": "Steve Carrell",
+    "image": "./stevecarrell.jpg"
+    },
+    {
+    "id": 11,
+    "name": "The Rock",
+    "image": "./therock.jpg"
+    },
+    {
+    "id": 12,
+    "name": "Tom Hanks",
+    "image": "./tomhanks.jpg"
+    }
+]
