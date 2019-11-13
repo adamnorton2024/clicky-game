@@ -2,61 +2,73 @@
     {
     "id": 1,
     "name": "Bill Murray",
-    "image": "./src/images/billmurray.jpg"
+    "image": "./images/billmurray.jpg",
+    "clicked": false
     },
     {
     "id": 2,
     "name": "Elton John",
-    "image": "./images/eltonjohn.jpg" 
+    "image": "./images/eltonjohn.jpg",
+    "clicked": false 
     },
     {
     "id": 3,
     "name": "John C Reilly",
-    "image": "./images/johncreilly"
+    "image": "./images/johncreilly.jpg",
+    "clicked": false
     },
     {
     "id": 4,
     "name": "johnny",
-    "image": "./images/johnny"
+    "image": "./images/johnny.jpg",
+    "clicked": false
     },
     {
     "id": 5,
     "name": "Leslie Neilson",
-    "image": "./images/leslieneilson.jpg"
+    "image": "./images/leslieneilson.jpg",
+    "clicked": false
     },
     {
     "id": 6,
     "name": "Machete",
-    "image": "./images/machete.jpg"
+    "image": "./images/machete.jpg",
+    "clicked": false
     },
     {
     "id": 7,
     "name": "Mel Gibson",
-    "image": "./images/melgibson.jpg"
+    "image": "./images/melgibson.jpg",
+    "clicked": false
     },
     {
     "id": 8,
     "name": "Robert De Niro",
-    "image": "./robertdeniro.jpg"
+    "image": "./images/robertdeniro.jpg",
+    "clicked": false
     },
     {
     "id": 9,
     "name": "Sly Stalone",
-    "image": "./images/slystallone.jpg"
+    "image": "./images/slystallone.jpg",
+    "clicked": false
     },
     {
     "id": 10,
     "name": "Steve Carrell",
-    "image": "./images/stevecarrell.jpg"
+    "image": "./images/stevecarrell.jpg",
+    "clicked": false
     },
     {
     "id": 11,
     "name": "The Rock",
-    "image": "./images/therock.jpg"
+    "image": "./images/therock.jpg",
+    "clicked": false
     },
     {
     "id": 12,
     "name": "Tom Hanks",
-    "image": "./images/tomhanks.jpg"
+    "image": "./images/tomhanks.jpg",
+    "clicked": false
     }
 ]
