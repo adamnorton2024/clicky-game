@@ -2,12 +2,12 @@
     {
     "id": 1,
     "name": "Bill Murray",
-    "image": "./images/billmurray.jpg"
+    "image": "./src/images/billmurray.jpg"
     },
     {
     "id": 2,
     "name": "Elton John",
-    "image": ".images/eltonjohn.jpg" 
+    "image": "./images/eltonjohn.jpg" 
     },
     {
     "id": 3,
@@ -47,16 +47,16 @@
     {
     "id": 10,
     "name": "Steve Carrell",
-    "image": "./stevecarrell.jpg"
+    "image": "./images/stevecarrell.jpg"
     },
     {
     "id": 11,
     "name": "The Rock",
-    "image": "./therock.jpg"
+    "image": "./images/therock.jpg"
     },
     {
     "id": 12,
     "name": "Tom Hanks",
-    "image": "./tomhanks.jpg"
+    "image": "./images/tomhanks.jpg"
     }
 ]

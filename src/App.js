@@ -5,12 +5,13 @@ import GameCard from './components/GameCard';
 import images from './images.json';
 
 
-
 function App() {
   return (
     <div>
       <Jumbotron />
-      <GameCard src={images[0].image}/>
+      {images.map(character =>
+        <GameCard image={character.image} />
+      )}
     </div>
   );
   
