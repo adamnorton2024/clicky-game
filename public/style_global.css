@@ -1,4 +1,5 @@
 
+
 .title {
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 6em;
@@ -11,4 +12,20 @@
 .btn:hover{
     border: 2px solid cyan;
     padding: 0;
+}
+
+.game-message{
+  color: yellow;
+	-webkit-animation: flash linear 2s infinite;
+	animation: flash linear 2s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .2; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .2; } 
+	100% { opacity: 1; }
 }

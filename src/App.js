@@ -32,7 +32,7 @@ class App extends Component {
 
     shuffle(imgArray);
 
-    this.setState({gameMessage: "Click an image to start."})
+    this.setState({gameMessage: "Click each image one time to win. If you click on twice, you lose."})
   };
 
 
@@ -101,7 +101,7 @@ class App extends Component {
       points: 0,
       currentScore: 0,
       topScore: this.state.topScore,
-      gameMessage: "Game Over! You Lose This Time.",
+      gameMessage: "Wrong! Click an image to start over...",
       clicked: [],
       images,
       gameOver: true
@@ -114,9 +114,11 @@ class App extends Component {
   render(){
     return (
       <div>
-        <Jumbotron>
-          <Counter />
-        </Jumbotron>
+        <Jumbotron 
+          currentScore={this.state.currentScore}
+          topScore={this.state.topScore}
+          gameMessage={this.state.gameMessage}
+        />
         <Container>
           {imgArray.map(character =>
             <GameCard
